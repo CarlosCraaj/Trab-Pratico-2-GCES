@@ -19,6 +19,7 @@ public class Aplicacao {
         // LoteService
         post("/lote/create", (request, response) -> loteService.insert(request, response));
         get("/lote/detalhe/:id", (request, response) -> loteService.get(request, response));
+        get("/lote/detalhe/", (request, response) -> loteService.get(request, response));
         post("/lote/update/:id", (request, response) -> loteService.update(request, response));
         get("/lote/delete/:id", (request, response) -> loteService.remove(request, response));
 
