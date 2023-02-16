@@ -13,7 +13,7 @@ public class DAO {
 		String driverName = "org.postgresql.Driver";                    
 		String serverName = "ti2cc-clmtsoftware.postgres.database.azure.com";
 		String mydatabase = "postgres";
-		int porta = 5432;
+		int porta = 5499;
 		String url = "jdbc:postgresql://" + serverName + ":" + porta +"/" + mydatabase;
 		String username = "admin_ti2";
 		String password = "puccc@123";
