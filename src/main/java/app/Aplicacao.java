@@ -17,7 +17,7 @@ public class Aplicacao {
         staticFiles.location("/public");
 
         // LoteService
-        post("/lote/create", (request, response) -> loteService.insert(request, response));
+        post("/lote/create/:id", (request, response) -> loteService.insert(request, response));
         get("/lote/detalhe/:id", (request, response) -> loteService.get(request, response));
         post("/lote/update/:id", (request, response) -> loteService.update(request, response));
         get("/lote/delete/:id", (request, response) -> loteService.remove(request, response));
