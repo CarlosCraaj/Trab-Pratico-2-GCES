@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - CLMT Software</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="../assets/landing.css">
+    <script src="../assets/js/erp.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="ui container">
+        <br>
+        <div class="ui secondary menu">
+            <div class="header item">CLMT Software</div>
+            <a class=" item" href="landing.html">
+                Início
+            </a>
+            <a class="active item violet" href="produtos.html">
+                Produtos
+            </a>
+            <a class="  item violet" href="lote.html">
+                Lote
+            </a>
+            <a class="item disabled" name="futureImplementation">
+                Tirar dúvidas
+            </a>
+
+            <div class="right menu">
+                <span class="ui item userMenuHello bold"></span>
+                <a class="ui item logoutButton">
+                    Logout
+                </a>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+        <br>
+        <div class="ui grid">
+            <div class="four wide column">
+                <div class="ui secondary vertical pointing fluid menu">
+                    <a class="item" href="landing.html">
+                        Início
+                    </a>
+                    <a class="item active" href="produtos.html">
+                        Produtos
+                    </a>
+                    <a class="item " href="lote.html">
+                        Lote
+                    </a>
+                    <a class="item disabled" href="#" name="futureImplementation">
+                        Tirar dúvidas
+                    </a>
+
+                </div>
+            </div>
+            <div class="centered twelve wide column">
+                <i class="sync icon"></i>
+                <table class="ui selectable celled table defaultTable">
+                    <thead>
+                        <tr>
+                            <th>ID Produto</th>
+                            <th>Nome</th>
+                            <th>Quantidade</th>
+                            <th>Número do lote</th>
+                        </tr>
+                    </thead>
+                    <tbody class="initialData">
+
+
+                    </tbody>
+                </table>
+                <div class="ui violet inverted button">Adicionar Produto</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

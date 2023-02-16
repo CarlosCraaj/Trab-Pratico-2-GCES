@@ -1,0 +1,6 @@
+*{
+    color: #6435C9 !important;
+}
+table.defaultTable *{
+    color: black !important;
+}
